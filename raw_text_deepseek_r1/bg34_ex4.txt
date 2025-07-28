@@ -1,0 +1,6 @@
+[CODE]  
+public class Animal {}  
+public class Dog extends Aniaml {}  
+[OUTPUT]  
+KM: The superclass name 'Aniaml' is misspelled in the 'extends' clause; the correct class name is 'Animal'.  
+KH: Correct the spelling of the superclass to 'Animal' in the 'Dog' class declaration.  

@@ -1,0 +1,11 @@
+[CODE]  
+public class CommentExample1 {  
+    public static void main(String[] args) {  
+        int x = 5;  
+        /* This is a comment to explain x  
+        System.out.println("x is " + x);  
+    }  
+}  
+[OUTPUT]  
+KM: The multi-line comment is not properly closed with '*/', causing the code below it to be treated as part of the comment and leading to a compilation error.  
+KH: Add the closing '*/' at the end of the comment block to ensure the code is parsed correctly.

@@ -1,0 +1,9 @@
+[CODE]  
+public class HelloWorld {  
+    public static void main(String[] args) {  
+        System. out.println("Hello, World!");  
+    }  
+}  
+[OUTPUT]  
+KM: A space is incorrectly placed after the period in "System. out.println", causing a compilation error.  
+KH: Remove the space between the period and "out" to correctly call the method as "System.out.println".  

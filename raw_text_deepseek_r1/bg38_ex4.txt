@@ -1,0 +1,11 @@
+[CODE]
+public class Redeclare {{
+    public static void main(String[] args) {{
+        int count = 5;
+        int count = 10;
+        System.out.println(count);
+    }}
+}}
+[OUTPUT]
+KM: Redeclaring 'count' in the same scope is not permitted in Java, leading to a duplicate variable error.
+KH: Remove the duplicate declaration and assign a new value using 'count = 10;' instead.

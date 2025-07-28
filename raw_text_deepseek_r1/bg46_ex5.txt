@@ -1,0 +1,10 @@
+[CODE]  
+public class Calc {  
+    public static void main(String[] args) {  
+        int result = 5 (3 + 2);  
+        System.out.println(result);  
+    }  
+}  
+[OUTPUT]  
+KM: Missing multiplication operator '*' between '5' and the expression '(3 + 2)'.  
+KH: Insert '*' between '5' and '(' to multiply the values.  

@@ -1,0 +1,13 @@
+[CODE]
+public class StaticMethodCall {
+    public static void printMessage() {
+        System.out.println("Static method called");
+    }
+    public static void main(String[] args) {
+        String clazz = "StaticMethodCall";
+        clazz.printMessage();
+    }
+}
+[OUTPUT]
+KM: Attempting to call a static method using a String variable (clazz) instead of the class name. Variables cannot resolve class-level static members.  
+KH: Use the class name directly (e.g., StaticMethodCall.printMessage()) to invoke static methods.

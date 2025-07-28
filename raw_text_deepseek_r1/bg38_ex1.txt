@@ -1,0 +1,10 @@
+[CODE]
+public class Test {{
+    public static void main(String[] args) {{
+        x = 10;
+        System.out.println(x);
+    }}
+}}
+[OUTPUT]
+KM: Variable 'x' is used without being declared with a type. Java requires explicit type declaration for variables.
+KH: Declare 'x' with the appropriate data type, such as 'int x = 10;' before using it.

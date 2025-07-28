@@ -1,0 +1,14 @@
+[CODE]
+public class ShadowExample {
+    int value = 100;
+    public void updateValue() {
+        if (true) {
+            int value = 50;
+            System.out.println(value);
+        }
+        System.out.println(value);
+    }
+}
+[OUTPUT]
+KM: The local variable 'value' inside the if block shadows the instance variable, so the instance variable remains unchanged.
+KH: Avoid declaring a local variable with the same name as the instance variable, or use 'this.value' to refer to the instance variable.

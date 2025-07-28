@@ -1,0 +1,14 @@
+[CODE]  
+public class MathUtil {  
+    public static int square(int n) {  
+        return n * n;  
+    }  
+    public static void main(String[] args) {  
+        MathUtil util = new MathUtil();  
+        int result = util.square(4);  
+        System.out.println(result);  
+    }  
+}  
+[OUTPUT]  
+KM: The static method `square` is incorrectly called using an instance of `MathUtil` instead of the class name.  
+KH: Call the static method directly using the class name, e.g., `MathUtil.square(4)`.  

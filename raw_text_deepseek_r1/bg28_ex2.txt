@@ -1,0 +1,11 @@
+[CODE]  
+public class LoopError {  
+    public static void main(String[] args) {  
+        for (int i = 0; i < 10 i++) {  
+            System.out.println(i);  
+        }  
+    }  
+}  
+[OUTPUT]  
+KM: Missing semicolon between the loop condition 'i < 10' and the increment 'i++' in the for loop declaration.  
+KH: Insert a semicolon after 'i < 10' to separate the condition and increment parts of the for loop. 

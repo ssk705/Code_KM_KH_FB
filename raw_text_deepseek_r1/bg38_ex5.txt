@@ -1,0 +1,10 @@
+[CODE]
+public class Order {{
+    public static void main(String[] args) {{
+        System.out.println(value);
+        int value = 10;
+    }}
+}}
+[OUTPUT]
+KM: Variable 'value' is used before its declaration, resulting in a "cannot find symbol" compilation error.
+KH: Declare the variable before using it in the code. Move the declaration above the print statement.

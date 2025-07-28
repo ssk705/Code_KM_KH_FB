@@ -1,0 +1,13 @@
+[CODE]  
+public class InstanceOfCheck {  
+    public static void main(String[] args) {  
+        String type = "String";  
+        Object obj = "Hello";  
+        if (obj instanceof type) {  
+            System.out.println("It's a String!");  
+        }  
+    }  
+}  
+[OUTPUT]  
+KM: The right-hand side of the `instanceof` operator must be a class type, not a variable. The variable `type` is incorrectly used instead of the class `String`.  
+KH: Replace `type` with the actual class name (e.g., `String`) in the `instanceof` check.  

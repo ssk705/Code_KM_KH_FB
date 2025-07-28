@@ -1,0 +1,12 @@
+[CODE]  
+public class EvenCheck {  
+    public static void main(String[] args) {  
+        int num = 4;  
+        if (num % 2 = 0) {  
+            System.out.println("Even");  
+        }  
+    }  
+}  
+[OUTPUT]  
+KM: Assignment operator '=' used instead of equality operator '==' in the condition, causing a compilation error.  
+KH: Replace '=' with '==' in the if statement to correctly check if the remainder is zero.  

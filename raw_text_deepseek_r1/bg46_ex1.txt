@@ -1,0 +1,11 @@
+[CODE]  
+public class Volume {  
+    public static void main(String[] args) {  
+        int length = 5, width = 3, height = 2;  
+        int volume = length width height;  
+        System.out.println(volume);  
+    }  
+}  
+[OUTPUT]  
+KM: Missing multiplication operators '*' between 'length', 'width', and 'height'.  
+KH: Add '*' between each pair of variables to calculate the product correctly.

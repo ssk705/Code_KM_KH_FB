@@ -1,0 +1,20 @@
+class Parent {
+    public static void display() {
+        System.out.println("Parent display");
+    }
+}
+
+class Child extends Parent {
+    public static void display() {  // Static method
+        System.out.println("Child display");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Parent p = new Child();
+        p.display();  // Always calls Parent.display()
+    }
+}
+KM:Static methods **cannot be overridden**—they are *hidden*, not bound polymorphically.  Calling `p.display()` ignores the object's runtime type (`Child`) because static methods use *compile-time* binding
+KH:If dynamic polymorphism is needed, declare the superclass method as *non-static* (instance method). Avoid "overriding" static methods. 

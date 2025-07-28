@@ -1,0 +1,12 @@
+[CODE]  
+public class Printer {  
+    public void printMessage(String msg) {  
+        System.out.println(msg);  
+    }  
+    public static void main(String[] args) {  
+        printMessage("Hello");  
+    }  
+}  
+[OUTPUT]  
+KM: The non-static method `printMessage` cannot be called directly from the static `main` method without an instance.  
+KH: Create an instance of `Printer` (e.g., `new Printer().printMessage("Hello")`) to call the instance method.  

@@ -1,0 +1,20 @@
+class Vehicle {
+    public void start() {
+        System.out.println("Vehicle starts");
+    }
+}
+
+class Car extends Vehicle {
+    public void start(int keyCode) {
+        System.out.println("Car starts with key");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Vehicle v = new Car();
+        v.start(); 
+    }
+}
+KM:The `Car.start(int)` overload doesn't override `Vehicle.start()`. Dynamic dispatch only applies to overridden methods with identical signatures.
+KH:Add a zero-argument `start()` method in `Car` that properly overrides the parent method.   

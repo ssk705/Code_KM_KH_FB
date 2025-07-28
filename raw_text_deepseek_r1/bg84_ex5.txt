@@ -1,0 +1,12 @@
+[CODE]
+public class ReturnNull {
+    public static String getGreeting() {
+        return null;
+    }
+    public static void main(String[] args) {
+        System.out.println(getGreeting().toLowerCase());
+    }
+}
+[OUTPUT]
+KM: The method `getGreeting()` returns null, and `toLowerCase()` is called on a null reference.
+KH: Check if the return value is not null before using it (e.g., `if (getGreeting() != null) { ... }`).

@@ -1,0 +1,11 @@
+[CODE]  
+public class CastExample4 {  
+    public static void main(String[] args) {  
+        long value = 1000L;  
+        int narrowed = value;  
+        System.out.println(narrowed);  
+    }  
+}  
+[OUTPUT]  
+KM: Implicit casting from long to int causes a compilation error due to possible data loss.  
+KH: Add an explicit cast: `int narrowed = (int) value;`, but check for overflow risks.  

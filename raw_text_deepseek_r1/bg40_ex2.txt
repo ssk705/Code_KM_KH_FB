@@ -1,0 +1,12 @@
+[CODE]  
+public class Greeter {  
+    public static void greet(String name) {  
+        System.out.println("Hello, " + name);  
+    }  
+    public static void main(String[] args) {  
+        greet(42);  
+    }  
+}  
+[OUTPUT]  
+KM: The method `greet` expects a `String` argument, but an `int` (42) is passed, causing a type mismatch.  
+KH: Convert the argument to a `String` (e.g., `greet("42")`) or ensure the parameter type matches the method signature. 

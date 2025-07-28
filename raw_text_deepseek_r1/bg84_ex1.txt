@@ -1,0 +1,10 @@
+[CODE]
+public class StringCheck {
+    public static void main(String[] args) {
+        String message;
+        System.out.println(message.length());
+    }
+}
+[OUTPUT]
+KM: The variable 'message' is declared but not initialized, resulting in a null reference.
+KH: Initialize 'message' with a String value (e.g., `String message = "Hello";`) before using it.

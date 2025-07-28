@@ -1,0 +1,20 @@
+class Animal {
+    public static void sleep() {
+        System.out.println("Animal sleeps");
+    }
+}
+
+class Cat extends Animal {
+    public static void sleep() {
+        System.out.println("Cat sleeps");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Animal myPet = new Cat();
+        myPet.sleep(); 
+    }
+}
+KM:Static methods are bound at compile-time, not runtime. Using a superclass reference to call `sleep()` invokes `Animal.sleep()` despite the runtime object being a `Cat
+KH:Replace `static` methods with instance methods (remove `static` keyword) to enable dynamic dispatch.  

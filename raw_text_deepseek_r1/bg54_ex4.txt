@@ -1,0 +1,12 @@
+[CODE]  
+abstract class Shape {  
+    public abstract double area();  
+}  
+class Rectangle extends Shape {  
+    private double length, width;  
+    public Rectangle(double l, double w) { length = l; width = w; }  
+    // Missing area method  
+}  
+[OUTPUT]  
+KM: The `Rectangle` class does not override the abstract `area` method defined in `Shape`, resulting in a compilation error.  
+KH: Implement `public double area()` in `Rectangle` to return `length * width`.  

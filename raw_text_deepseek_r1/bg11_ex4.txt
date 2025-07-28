@@ -1,0 +1,12 @@
+[CODE]  
+public class FlagCheck {  
+    public static void main(String[] args) {  
+        boolean flag = false;  
+        if (flag = true) {  
+            System.out.println("Flag is true");  
+        }  
+    }  
+}  
+[OUTPUT]  
+KM: Assignment 'flag = true' in the if condition sets flag to true instead of checking its value, leading to unintended behavior.  
+KH: Replace 'flag = true' with 'flag == true' or simply 'flag' to check the boolean value correctly.  

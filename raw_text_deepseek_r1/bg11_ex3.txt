@@ -1,0 +1,12 @@
+[CODE]  
+public class EqualityTest {  
+    public static boolean checkEqual(int a, int b) {  
+        return a = b;  
+    }  
+    public static void main(String[] args) {  
+        System.out.println(checkEqual(3, 3));  
+    }  
+}  
+[OUTPUT]  
+KM: Assignment 'a = b' used in the return statement instead of equality check 'a == b', causing unintended assignment and incorrect result.  
+KH: Replace 'a = b' with 'a == b' to compare the values of a and b instead of assigning b to a.  

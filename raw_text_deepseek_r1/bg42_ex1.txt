@@ -1,0 +1,12 @@
+import java.utill.ArrayList;
+
+public class StudentList {
+    public static void main(String[] args) {
+        ArrayList<String> list = new ArrayList<>();
+        list.add("Alice");
+        System.out.println(list);
+    }
+}
+
+KM: The package `java.utill` is misspelled. Java packages are case-sensitive and require exact spelling.  
+KH: Correct the spelling to `java.util` (single 'l') in the import statement. 

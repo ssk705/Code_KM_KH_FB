@@ -1,0 +1,13 @@
+[CODE]  
+public class Calculator {  
+    public static int add(int a, int b) {  
+        return a + b;  
+    }  
+    public static void main(String[] args) {  
+        double result = add(2.5, 3.5);  
+        System.out.println(result);  
+    }  
+}  
+[OUTPUT]  
+KM: Passing double values to a method expecting int parameters, causing a loss of precision and compilation error.  
+KH: Cast the arguments to int or modify the method to accept double parameters and return a double.  

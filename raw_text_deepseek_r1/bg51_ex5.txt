@@ -1,0 +1,12 @@
+[CODE]  
+public class Printer {  
+    public static void printMessage(String message) {  
+        System.out.println(message);  
+    }  
+    public static void main(String[] args) {  
+        printMessage(42);  
+    }  
+}  
+[OUTPUT]  
+KM: Passing an int argument to a method expecting a String parameter, causing a type mismatch.  
+KH: Convert the int to a String using String.valueOf(42) or adjust the method to accept an int parameter.

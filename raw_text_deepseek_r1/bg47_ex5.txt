@@ -1,0 +1,13 @@
+public class ComplexCondition {
+    public static void main(String[] args) {
+        boolean flag1 = false;
+        boolean flag2 = true;
+        
+        if (flag1 | flag2) {
+            System.out.println("At least one flag is true");
+            flag2 = !flag2;
+        }
+    }
+}
+KM:Bitwise `|` always modifies `flag2` in the loop body, while `||` would skip evaluation when `flag1` is `true`.   
+KH:Replace `|` with `||` to avoid unnecessary operations. 

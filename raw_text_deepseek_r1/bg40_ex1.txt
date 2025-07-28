@@ -1,0 +1,13 @@
+[CODE]  
+public class Calculator {  
+    public static int add(int a, int b) {  
+        return a + b;  
+    }  
+    public static void main(String[] args) {  
+        int result = add(5);  
+        System.out.println(result);  
+    }  
+}  
+[OUTPUT]  
+KM: The method `add` requires two parameters of type `int`, but only one argument is provided in the method call.  
+KH: Ensure the method call includes two integer arguments, e.g., `add(5, 3)`, to match the method signature.  

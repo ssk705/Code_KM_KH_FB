@@ -1,0 +1,11 @@
+import org.apache.commons.lang3.StringUtils;
+
+public class TextProcessor {
+    public static void main(String[] args) {
+        String result = StringUtils.capitalize("hello");
+        System.out.println(result);
+    }
+}
+ 
+KM: The `org.apache.commons.lang3` package is not part of the Java standard library. External libraries must be explicitly added to the project's classpath.  
+KH: Download the Apache Commons Lang library and add its JAR file to your project's build path/dependencies.

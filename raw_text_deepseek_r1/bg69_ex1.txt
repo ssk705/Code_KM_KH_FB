@@ -1,0 +1,10 @@
+[CODE]
+public class InstanceCreationError {
+    public static void main(String[] args) {
+        String className = "Integer";
+        Object obj = new className();
+    }
+}
+[OUTPUT]
+KM: Using a String variable (className) with the 'new' operator, which expects a concrete class name. The compiler treats 'className' as an undeclared class.  
+KH: Replace the variable with the actual class name (e.g., Integer) when instantiating the object. Use reflection (e.g., Class.forName()) if dynamic class loading is needed.

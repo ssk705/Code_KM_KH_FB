@@ -1,0 +1,12 @@
+[CODE]
+public class ScopeExample {{
+    public static void main(String[] args) {{
+        for (int i = 0; i < 5; i++) {{
+            int y = i * 2;
+        }}
+        System.out.println(y);
+    }}
+}}
+[OUTPUT]
+KM: Variable 'y' is declared inside the for loop block and cannot be accessed outside of it due to scope limitations.
+KH: Declare 'y' outside the loop before using it inside if necessary, ensuring it's within the correct scope.

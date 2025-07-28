@@ -1,0 +1,12 @@
+[CODE]  
+public class CommentExample5 {  
+    public static void main(String[] args) {  
+        // This line sets z to 20;  
+        int z = 20; // Then we print z  
+        // System.out.println(z);  
+        System.out.println("Done");  
+    }  
+}  
+[OUTPUT]  
+KM: The comment "// Then we print z" is misleading because the line it's on does not print z; the actual print statement is commented out.  
+KH: Ensure comments accurately describe the adjacent code. Uncomment the correct line if printing z was intended.

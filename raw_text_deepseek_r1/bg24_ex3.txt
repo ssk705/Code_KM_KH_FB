@@ -1,0 +1,11 @@
+[CODE]
+public class ArrayExample {
+    public static void main(String[] args) {
+        int[] arr;
+        arr[0] = 10;
+        System.out.println(arr[0]);
+    }
+}
+[OUTPUT]
+KM: The array 'arr' is declared but not initialized with a new instance, leading to a NullPointerException when accessing its elements.
+KH: Initialize 'arr' with a new int array of the desired size (e.g., int[] arr = new int[1];) before assigning values to its elements.

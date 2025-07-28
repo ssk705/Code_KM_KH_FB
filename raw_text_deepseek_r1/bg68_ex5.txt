@@ -1,0 +1,23 @@
+class Base {
+    void init() {
+        setup();
+    }
+    void setup() {
+        System.out.println("Base setup");
+    }
+}
+
+class Derived extends Base {
+    void setup() {
+        System.out.println("Derived setup");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Base b = new Derived();
+        b.init(); 
+    }
+}
+KM:Calling an overridden method (`setup()`) from a superclass method (`init()`) invokes the subclass method, which might be uninitialized if `Derived` setup requires constructor logic
+KH:Ensure critical initialization happens in constructors, not overrideable methods called by superclass logic. 

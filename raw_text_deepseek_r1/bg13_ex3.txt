@@ -1,0 +1,11 @@
+[CODE]  
+public class CastExample3 {  
+    public static void main(String[] args) {  
+        int a = 5, b = 2;  
+        double result = (double) (a / b);  
+        System.out.println("Expected 2.5, got: " + result);  
+    }  
+}  
+[OUTPUT]  
+KM: Integer division occurs first, yielding 2, which is then cast to double (2.0).  
+KH: Cast one operand to double before division: `(double) a / b`.  

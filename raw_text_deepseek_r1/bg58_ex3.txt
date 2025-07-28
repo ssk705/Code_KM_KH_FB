@@ -1,0 +1,10 @@
+[CODE]  
+public class CommentExample3 {  
+    public static void main(String[] args) {  
+        /* This is a nested /* comment */ attempt */  
+        int y = 10;  
+    }  
+}  
+[OUTPUT]  
+KM: Nested multi-line comments are not allowed in Java; the first '*/' closes the initial '/*', leaving the rest of the code uncompiled.  
+KH: Avoid nesting multi-line comments. Use single-line comments (//) inside block comments if needed.  

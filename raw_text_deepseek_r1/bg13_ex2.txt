@@ -1,0 +1,11 @@
+[CODE]  
+public class CastExample2 {  
+    public static void main(String[] args) {  
+        Object obj = new Object();  
+        String str = (String) obj;  
+        System.out.println(str);  
+    }  
+}  
+[OUTPUT]  
+KM: Casting an unrelated type (Object to String) causes a runtime ClassCastException.  
+KH: Ensure the object is actually a String using `instanceof` before casting, or redesign to avoid incompatible types.  

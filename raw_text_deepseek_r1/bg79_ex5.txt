@@ -1,0 +1,15 @@
+public class Converter {
+    void convert(long num) {
+        System.out.println("long: " + num);
+    }
+    
+    void convert(double num) {
+        System.out.println("double: " + num);
+    }
+    
+    public static void main(String[] args) {
+        new Converter().convert(5); // Error: ambiguous call
+    }
+}
+KM:The integer `5` can be promoted to both `long` and `double`. Java cannot choose between the two overloaded methods, causing ambiguity.
+KH:Explicitly cast the argument (e.g., `convert((long)5)`) or add a method for `int` parameters.     

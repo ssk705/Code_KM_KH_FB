@@ -1,0 +1,9 @@
+public class Book {
+    String title;
+    public static void main(String[] args) {
+        Book b = null;
+        b.title = "Java"; // Runtime NullPointerException
+    }
+}
+KM:Assigned `Book b = null` (no object created), then tried to modify `b.title
+KH:Initialize `b` with `new Book()` before accessing its fields.  

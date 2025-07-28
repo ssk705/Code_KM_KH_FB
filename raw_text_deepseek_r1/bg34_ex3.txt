@@ -1,0 +1,10 @@
+[CODE]  
+public class Student {  
+    public Student() {}  
+    public static void main(String[] args) {  
+        Studnet s = new Studnet();  
+    }  
+}  
+[OUTPUT]  
+KM: The class name 'Studnet' is misspelled when declaring the variable and instantiating the object; the correct class name is 'Student'.  
+KH: Replace all instances of 'Studnet' with 'Student' to correctly reference the class.  

@@ -1,0 +1,11 @@
+public class Divide {
+    public static void main(String[] args) {
+        try {
+            int result = 10 / 0;
+        } catch (ArithmeticException) {
+            System.out.println("Error");
+        }
+    }
+}
+KM:The `catch` block specifies the exception type but omits the required variable identifier.  
+KH:Add an identifier after `ArithmeticException` (e.g., `ArithmeticException e`).   
