@@ -1,0 +1,9 @@
+[CODE]  
+public class Student implements Comparable<Student> {  
+    private int id;  
+    public Student(int id) { this.id = id; }  
+    // Missing compareTo method  
+}  
+[OUTPUT]  
+KM: The class `Student` implements `Comparable<Student>` but does not define the required `compareTo` method, causing a compilation error.  
+KH: Add a `public int compareTo(Student other)` method to compare `id` or another relevant field and return a negative, zero, or positive integer.

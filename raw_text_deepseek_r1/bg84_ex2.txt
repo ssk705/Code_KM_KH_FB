@@ -1,0 +1,10 @@
+[CODE]
+public class ObjectArray {
+    public static void main(String[] args) {
+        String[] names = new String[3];
+        System.out.println(names[0].toUpperCase());
+    }
+}
+[OUTPUT]
+KM: The array 'names' is initialized, but its elements are null by default. Accessing `names[0].toUpperCase()` dereferences a null element.
+KH: Initialize each array element (e.g., `names[0] = "Alice";`) before accessing its methods.

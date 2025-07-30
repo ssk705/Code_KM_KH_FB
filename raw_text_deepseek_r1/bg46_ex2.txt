@@ -1,0 +1,12 @@
+[CODE]  
+public class Multiply {  
+    public static int multiply(int a, int b) {  
+        return a b;  
+    }  
+    public static void main(String[] args) {  
+        System.out.println(multiply(3, 4));  
+    }  
+}  
+[OUTPUT]  
+KM: Missing multiplication operator '*' between 'a' and 'b' in the return statement.  
+KH: Insert '*' between 'a' and 'b' to compute the product.  

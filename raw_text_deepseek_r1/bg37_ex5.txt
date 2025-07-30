@@ -1,0 +1,9 @@
+ public class Game {
+    public static void main(String[] args) {
+        final int MAX_LIVES = 3;
+        MAX_LIVES = 5;  // Bug here
+        System.out.println(MAX_LIVES);
+    }
+}
+KM:Reassigning a value to a `final` variable (`MAX_LIVES`) causes "illegal start of expression". 
+KH:Remove the reassignment line (`MAX_LIVES = 5;`). Initialize `MAX_LIVES` with the correct value initially.

@@ -1,0 +1,11 @@
+[CODE]  
+public class CalcArea {  
+    public static void main(String[] args) {  
+        int radius = 3;  
+        double area = 3.14 * radius * redius;  
+        System.out.println(area);  
+    }  
+}  
+[OUTPUT]  
+KM: The variable 'redius' is misspelled and not declared; the correct variable name 'radius' is already defined.  
+KH: Correct the spelling of 'redius' to 'radius' to use the declared variable.  

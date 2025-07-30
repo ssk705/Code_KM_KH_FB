@@ -1,0 +1,10 @@
+[CODE]
+public class Shadow {
+    int x;
+    public Shadow(int x) {
+        x = x;
+    }
+}
+[OUTPUT]
+KM: The parameter 'x' shadows the instance variable 'x', so the assignment 'x = x' has no effect on the instance variable.
+KH: Use 'this.x = x' in the constructor to assign the parameter value to the instance variable.

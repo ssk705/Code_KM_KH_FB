@@ -1,0 +1,14 @@
+[CODE]
+public class Book {
+    private String title;
+    public Book() { }
+    public void printTitle() {
+        System.out.println(title.length());
+    }
+    public static void main(String[] args) {
+        new Book().printTitle();
+    }
+}
+[OUTPUT]
+KM: The 'title' field is not initialized in the constructor, so it remains null. Calling `title.length()` causes a NullPointerException.
+KH: Initialize 'title' in the constructor (e.g., `title = "Default Title";`) or ensure it is set before use.

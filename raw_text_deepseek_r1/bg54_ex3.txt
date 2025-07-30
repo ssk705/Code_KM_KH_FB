@@ -1,0 +1,10 @@
+[CODE]  
+interface Drawable {  
+    void draw();  
+}  
+class Circle implements Drawable {  
+    // No draw method  
+}  
+[OUTPUT]  
+KM: The `Circle` class implements the `Drawable` interface but does not define the required `draw` method, leading to a compilation error.  
+KH: Add a `public void draw()` method in `Circle` to implement the drawing logic for a circle.  

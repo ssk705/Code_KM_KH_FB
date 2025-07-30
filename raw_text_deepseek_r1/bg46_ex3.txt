@@ -1,0 +1,12 @@
+[CODE]  
+public class CheckValue {  
+    public static void main(String[] args) {  
+        int a = 5;  
+        if (a == 5 6) {  
+            System.out.println("a is 5 or 6");  
+        }  
+    }  
+}  
+[OUTPUT]  
+KM: Missing logical operator '||' between '5' and '6' to check if 'a' is either 5 or 6.  
+KH: Use '||' between '5' and '6' and ensure proper comparison (e.g., 'a == 5 || a == 6').  

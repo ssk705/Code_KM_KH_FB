@@ -1,0 +1,13 @@
+[CODE]
+public class LoopExample {
+    int i = 5;
+    public void printNumbers() {
+        for (int i = 0; i < 3; i++) {
+            System.out.println(i);
+        }
+        System.out.println("Instance i: " + i);
+    }
+}
+[OUTPUT]
+KM: The loop variable 'i' shadows the instance variable 'i', so the instance variable remains unchanged.
+KH: Use a different variable name for the loop or access the instance variable using 'this.i' if intentional.

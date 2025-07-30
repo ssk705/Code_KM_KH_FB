@@ -1,0 +1,10 @@
+[CODE]  
+public class CommentExample4 {  
+    public static void main(String[] args) {  
+        \* This comment uses incorrect syntax *\  
+        System.out.println("Test");  
+    }  
+}  
+[OUTPUT]  
+KM: Using backslashes (\*) instead of forward slashes (/*) to start a comment results in a syntax error.  
+KH: Always use /* ... */ for block comments and // for single-line comments.  

@@ -1,0 +1,11 @@
+[CODE]  
+public class CastExample5 {  
+    public static void main(String[] args) {  
+        Double wrapper = 5.5;  
+        Integer invalidCast = (Integer) wrapper;  
+        System.out.println(invalidCast);  
+    }  
+}  
+[OUTPUT]  
+KM: Casting between unrelated wrapper types (Double to Integer) is invalid and causes a compilation error.  
+KH: Convert via primitive types (e.g., `intValue()`) or use appropriate conversion methods like `doubleValue()`.

@@ -1,0 +1,16 @@
+[CODE]  
+public class Shape {  
+    public void draw() {  
+        System.out.println("Drawing shape");  
+    }  
+}  
+public class Circle extends Shape {  
+    public static void main(String[] args) {  
+        Shape shape = new Shape();  
+        Circle circle = shape;  
+        circle.draw();  
+    }  
+}  
+[OUTPUT]  
+KM: Assigning a superclass (Shape) instance to a subclass (Circle) variable without proper casting, leading to a type error.  
+KH: Use explicit downcasting (e.g., Circle circle = (Circle) shape;) only if the Shape instance is actually a Circle.  

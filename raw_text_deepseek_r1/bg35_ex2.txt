@@ -1,0 +1,11 @@
+class Person {
+    private String name;
+}
+
+class Student extends Person extends Person {
+    public void printName() {
+        System.out.println(name); // Error
+    }
+}
+KM:Subclasses cannot directly access `private` fields of the superclass (like `name`), as they are restricted to the declaring class. 
+KH:Treating inheritance as granting unrestricted access to superclass internals, which violates encapsulation.  

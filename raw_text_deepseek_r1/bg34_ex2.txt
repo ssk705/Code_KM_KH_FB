@@ -1,0 +1,9 @@
+[CODE]  
+public class calculator {  
+    public static int add(int a, int b) {  
+        return a + b;  
+    }  
+}  
+[OUTPUT]  
+KM: Class name 'calculator' uses incorrect case; the filename 'Calculator.java' expects the class name to be 'Calculator' with an uppercase 'C'.  
+KH: Correct the class name to 'Calculator' to adhere to Java's case sensitivity requirements.  

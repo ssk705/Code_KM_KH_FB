@@ -1,0 +1,20 @@
+class Animal {
+    private void makeSound() { 
+        System.out.println("Animal sound"); 
+    }
+}
+
+class Dog extends Animal {
+    public void makeSound() {  // Intended override
+        System.out.println("Bark");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Animal a = new Dog();
+        a.makeSound();  // Prints "Animal sound", not "Bark"
+    }
+}
+KM:Private methods cannot be overridden. `Dog.makeSound()` is a new method, not an override. Polymorphism fails here.  
+KH:Declare `makeSound()` as `public` or `protected` in `Animal` to enable proper overriding.  

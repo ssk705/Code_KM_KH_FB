@@ -1,0 +1,12 @@
+import mypackage.Utilities;
+
+public class Calculator {
+    public static void main(String[] args) {
+        int sum = Utilities.add(5, 10);
+        System.out.println(sum);
+    }
+}
+
+KM: The `mypackage.Utilities` class either doesn't exist or isn't in the correct directory structure relative to the source root.  
+KH: Create a valid `mypackage` directory containing `Utilities.java` at the project root, or verify the package declaration in `Utilities.java`.
+ 

@@ -1,0 +1,14 @@
+[CODE]  
+public class MathUtils {  
+    public static int add(int a, int b) {  
+        return a + b;  
+    }  
+}  
+public class Test {  
+    public static void main(String[] args) {  
+        int sum = MathUtlis.add(2, 3);  
+    }  
+}  
+[OUTPUT]  
+KM: The class name 'MathUtlis' is misspelled when calling the static method 'add'; the correct class name is 'MathUtils'.  
+KH: Correct the spelling of the class name to 'MathUtils' in the method call.

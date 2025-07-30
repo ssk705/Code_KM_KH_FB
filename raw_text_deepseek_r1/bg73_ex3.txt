@@ -1,0 +1,11 @@
+[CODE]  
+public class LoopExample3 {  
+    public static void main(String[] args) {  
+        for (int i = 0; i < 5; i++); {  
+            System.out.println(i);  
+        }  
+    }  
+}  
+[OUTPUT]  
+KM: A semicolon `;` after the `for` loop declaration ends the loop prematurely, and `i` is out of scope in the print statement.  
+KH: Remove the semicolon after the `for` loop and ensure the print statement is inside the loop body.  

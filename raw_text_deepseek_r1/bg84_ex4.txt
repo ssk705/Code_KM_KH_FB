@@ -1,0 +1,14 @@
+[CODE]
+public class StudentList {
+    private List<String> students;
+    public void addStudent(String name) {
+        students.add(name);
+    }
+    public static void main(String[] args) {
+        StudentList list = new StudentList();
+        list.addStudent("Alice");
+    }
+}
+[OUTPUT]
+KM: The 'students' list is declared but not initialized (e.g., `new ArrayList<>()`), so it remains null.
+KH: Initialize the 'students' list in the declaration or constructor (e.g., `students = new ArrayList<>();`).

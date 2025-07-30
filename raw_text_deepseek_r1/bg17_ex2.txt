@@ -1,0 +1,14 @@
+public class Book {
+    private String title;
+    public Book(String t) { title = t; }
+    public String getTitle() { return title; }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Book[] shelf = new Book[3];  
+        shelf[0].getTitle();  
+    }
+}
+KM:`new Book[3]` creates an array of `null` references. Accessing `shelf[0]` without initializing it to a `Book` object causes a `NullPointerException`
+KH: Initialize each array element with `new Book(...)` before use.  

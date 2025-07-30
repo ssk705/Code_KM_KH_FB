@@ -1,0 +1,10 @@
+ public class AreaCalculation {
+    public static void main(String[] args) {
+        int length = 4;
+        int width = 5;
+        int area = length width; // Missing operator between length and width
+        System.out.println("Area: " + area);
+    }
+}
+KM:int area = length width;` fails because `length width` is syntactically invalid without an operator (`*`)
+KH:Insert the multiplication operator (`*`) between `length` and `width`

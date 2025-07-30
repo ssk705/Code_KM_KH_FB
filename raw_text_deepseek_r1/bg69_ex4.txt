@@ -1,0 +1,14 @@
+[CODE]  
+public class CatchException {  
+    public static void main(String[] args) {  
+        Exception ex = new ArithmeticException();  
+        try {  
+            int result = 10 / 0;  
+        } catch (ex) {  
+            System.out.println("Division by zero error");  
+        }  
+    }  
+}  
+[OUTPUT]  
+KM: The `catch` block expects a class type (e.g., `ArithmeticException`), but a variable `ex` is used instead.  
+KH: Use the exception class name directly in the `catch` block (e.g., `catch (ArithmeticException e)`).  

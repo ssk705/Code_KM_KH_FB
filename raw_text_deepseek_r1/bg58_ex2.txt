@@ -1,0 +1,10 @@
+[CODE]  
+public class CommentExample2 {  
+    public static void main(String[] args) {  
+        // This prints "Hello World"  
+        System.out.println("Hello // World"); // Note: Slashes in the string  
+    }  
+}  
+[OUTPUT]  
+KM: The student may mistakenly believe that '//' inside the string literal acts as a comment, but it is part of the string.  
+KH: Understand that comments are ignored by the compiler, but anything inside string literals is treated as text.  

@@ -1,0 +1,10 @@
+[CODE]
+public class Counter {
+    int count = 0;
+    public void increment(int count) {
+        count++;
+    }
+}
+[OUTPUT]
+KM: The parameter 'count' shadows the instance variable 'count', so the increment affects the parameter, not the instance variable.
+KH: Use 'this.count++' to modify the instance variable instead of the parameter.

@@ -1,0 +1,11 @@
+[CODE]  
+public class Book {  
+    String title;  
+    public static void main(String[] args) {  
+        title = "Java Basics";  
+        System.out.println(title);  
+    }  
+}  
+[OUTPUT]  
+KM: Attempting to access a non-static instance variable 'title' directly from a static context (main method).  
+KH: Either make the 'title' variable static or create an instance of the Book class to access the instance variable. 

@@ -1,0 +1,11 @@
+[CODE]  
+public class CastExample1 {  
+    public static void main(String[] args) {  
+        double num = 3.9;  
+        int truncated = (int) num;  
+        System.out.println("Expected 4, got: " + truncated);  
+    }  
+}  
+[OUTPUT]  
+KM: Directly casting a double to int truncates the decimal part, leading to unexpected results when rounding is intended.  
+KH: Use `Math.round()` instead of casting to properly round the value.  

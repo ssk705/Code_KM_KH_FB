@@ -1,0 +1,9 @@
+[CODE]  
+public class Vehicl {  
+    public static void main(String[] args) {  
+        System.out.println("Vehicle");  
+    }  
+}  
+[OUTPUT]  
+KM: Class name 'Vehicl' does not match the filename 'Vehicle.java', leading to a compilation error. Java requires the public class name to exactly match the filename.  
+KH: Rename the class to 'Vehicle' to match the filename.  

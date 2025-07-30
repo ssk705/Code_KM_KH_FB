@@ -1,0 +1,10 @@
+[CODE]  
+public class PrintSum {  
+    public static void main(String[] args) {  
+        int a = 5, b = 10;  
+        System.out.println("Sum: " a + b);  
+    }  
+}  
+[OUTPUT]  
+KM: Missing concatenation operator '+' between the string "Sum: " and variable 'a'.  
+KH: Add '+' between "Sum: " and 'a' to concatenate the string and variables.  

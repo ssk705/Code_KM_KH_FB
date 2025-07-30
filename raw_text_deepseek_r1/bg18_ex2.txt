@@ -1,0 +1,14 @@
+
+[CODE]
+public class Printer {
+    public static void printMessage(String msg) {
+        System.out.println(msg);
+    }
+    public static void main(String[] args) {
+        String output = printMessage("Hello");
+        System.out.println(output);
+    }
+}
+[OUTPUT]
+KM: The method 'printMessage' is declared as void but is used in an assignment, which expects a return value.
+KH: Either change the method to return a String (and add a return statement) or remove the assignment and call the method without assigning its result.

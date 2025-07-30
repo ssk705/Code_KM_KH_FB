@@ -1,0 +1,12 @@
+public class Logger {
+    void log(int level, String message) { /* ... */ }
+    int log(int severity, String msg) {  
+        return severity;
+    }
+    public static void main(String[] args) {
+        Logger l = new Logger();
+        l.log(1, "Error");
+    }
+} 
+KM:Overloading requires **unique parameter types**—not return types. These methods have identical signatures (`int, String`), causing a compilation error. 
+KH:Change parameter types (e.g., add a third parameter) or rename one method. Return type alone cannot differentiate overloads.

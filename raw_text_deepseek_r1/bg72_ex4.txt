@@ -1,0 +1,24 @@
+class Fruit {}
+class Apple extends Fruit {}
+
+class Tree {
+    public Fruit getFruit() {
+        return new Fruit();
+    }
+}
+
+class AppleTree extends Tree {
+    @Override
+    public Apple getFruit() {  // Covariant return is allowed
+        return new Apple();
+    }
+}
+
+class SpecialTree extends AppleTree {
+    @Override
+    public Fruit getFruit() {  // Return type changed back to Fruit
+        return new Fruit();
+    }
+}
+KM: While covariant returns (subclassing return type) *are* allowed in overriding, reverting to a superclass return type (`Apple` → `Fruit`) violates the contract. 
+KH: Return types must be *subtypes* of the original return type, not supertypes.  

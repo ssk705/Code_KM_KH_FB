@@ -1,0 +1,11 @@
+public class SafeDivision {
+    public static void main(String[] args) {
+        int divisor = 0;
+        int dividend = 10;
+        if (divisor != 0 & dividend / divisor > 2) {
+            System.out.println("Condition met");
+        }
+    }
+} 
+KM:Both conditions are evaluated even if `divisor != 0` fails, causing an `ArithmeticException` (division by zero).  
+KH:Replace `&` with `&&` to skip the division when `divisor != 0` is `false`.  

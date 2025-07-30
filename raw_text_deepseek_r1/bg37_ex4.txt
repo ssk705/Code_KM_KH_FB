@@ -1,0 +1,12 @@
+ public class Shop {
+    public static void main(String[] args) {
+        int price = 100;
+        {
+            private int discount = 10;  // Bug here
+            price = price - discount;
+        }
+        System.out.println(price);
+    }
+}
+KM:Using `private` inside a local block (within `main()`) is invalid. Access modifiers only apply to class members (fields/methods).
+KH:Declare `discount` without `private`. Use `int discount = 10;` instead.  

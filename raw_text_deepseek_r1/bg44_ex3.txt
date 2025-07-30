@@ -1,0 +1,8 @@
+public class Example5 {
+          public static void main(String[] args) {
+              return 10
+          }
+      }
+
+KM: Missing semicolon at the end of the return statement.
+KH: Add a semicolon at the end of the return statement.

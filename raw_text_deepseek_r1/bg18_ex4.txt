@@ -1,0 +1,12 @@
+[CODE]
+public class Converter {
+    public static double toMiles(double kilometers) {
+        double miles = kilometers * 0.621371;
+    }
+    public static void main(String[] args) {
+        System.out.println(toMiles(10));
+    }
+}
+[OUTPUT]
+KM: The method 'toMiles' is declared to return a double but lacks a return statement.
+KH: Add a return statement for the calculated 'miles' variable

@@ -1,0 +1,10 @@
+[CODE]
+public class Student {
+    int age;
+    public void setAge(int newAge) {
+        int age = newAge;
+    }
+}
+[OUTPUT]
+KM: The local variable 'age' shadows the instance variable 'age', so the instance variable is not updated.
+KH: Remove the local variable declaration and assign directly to 'this.age = newAge'.

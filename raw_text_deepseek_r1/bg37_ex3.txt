@@ -1,0 +1,11 @@
+ public class Weather {
+    public static void main(String[] args) {
+        int temperature = 25;
+        if (temperature > 20) 
+            System.out.println("Warm");
+            public String report = "Today's weather";   
+        }
+    }
+}
+KM:Using `public` inside a method block (especially in an `if` block) is invalid.  
+KH:Remove `public` from the variable declaration. Declare `report` without access modifiers.  

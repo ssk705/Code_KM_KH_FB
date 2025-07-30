@@ -1,0 +1,11 @@
+[CODE]  
+public class Student {  
+    public static void main(String[] args) {  
+        int[] grades = new int[] {90, 85, 77};  
+        List gradesList = grades;  
+        System.out.println(gradesList.get(0));  
+    }  
+}  
+[OUTPUT]  
+KM: Assigning an array (int[]) to a raw List variable without proper conversion, causing a type mismatch.  
+KH: Convert the array to a List using Arrays.asList() and ensure the List is parameterized with the correct type (e.g., List<Integer>). 

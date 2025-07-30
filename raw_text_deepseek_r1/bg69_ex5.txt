@@ -1,0 +1,10 @@
+[CODE]  
+public class ObjectCreation {  
+    public static void main(String[] args) {  
+        Integer num = 5;  
+        Integer newNum = new num();  
+    }  
+}  
+[OUTPUT]  
+KM: The `new` keyword requires a class type (e.g., `Integer`), but a variable `num` is used to create an object.  
+KH: Replace `num` with the class name (e.g., `Integer`) in the object creation statement.  
