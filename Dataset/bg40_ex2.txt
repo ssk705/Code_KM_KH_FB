@@ -1,3 +1,4 @@
+<<<<<<< HEAD
  public class MultiPrint {
     public static void main(String[] args) {
         System.out.printLine("Line 1");
@@ -7,3 +8,17 @@
 
 KM: Both `printLine` calls are misspelled. Java uses `println` for printing with automatic newlines.  
 KH: Replace every occurrence of `printLine` with `println` to output multiple lines correctly.
+=======
+[CODE]  
+public class Greeter {  
+    public static void greet(String name) {  
+        System.out.println("Hello, " + name);  
+    }  
+    public static void main(String[] args) {  
+        greet(42);  
+    }  
+}  
+[OUTPUT]  
+KM: The method `greet` expects a `String` argument, but an `int` (42) is passed, causing a type mismatch.  
+KH: Convert the argument to a `String` (e.g., `greet("42")`) or ensure the parameter type matches the method signature. 
+>>>>>>> 9947eeb5b527383f4fdd64179b144729ba701ff4

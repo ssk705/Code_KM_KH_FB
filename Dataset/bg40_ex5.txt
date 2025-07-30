@@ -1,3 +1,4 @@
+<<<<<<< HEAD
  public class CalculateSum {
     public static void main(String[] args) {
         int x = 5, y = 10;
@@ -7,3 +8,18 @@
 }
 KM: `printLine` is incorrectly used instead of `println`, causing an "undefined method" error.  
 KH: Replace `printLine` with `println` to print the concatenated string and number with a line break.  
+=======
+[CODE]  
+public class Converter {  
+    public static String toUpperCase(String str) {  
+        return str.toUpperCase();  
+    }  
+    public static void main(String[] args) {  
+        String upper = toUppercase("test");  
+        System.out.println(upper);  
+    }  
+}  
+[OUTPUT]  
+KM: The method `toUppercase` is misspelled (incorrect capitalization of the letter 'P') and does not match the declared method `toUpperCase`.  
+KH: Correct the method name in the call to `toUpperCase` to match the exact spelling and casing in the method signature.
+>>>>>>> 9947eeb5b527383f4fdd64179b144729ba701ff4

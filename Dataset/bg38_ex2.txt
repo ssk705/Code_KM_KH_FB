@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 class Vehicle {
     private void startEngine() {
         System.out.println("Engine started");
@@ -11,3 +12,17 @@ class Car extends Vehicle {
 }
 KM:Private methods like `startEngine()` are not inherited by subclasses. `Car` cannot directly access `Vehicle`'s private method.  
 KH:Change `startEngine()` to `protected` or `public` in `Vehicle`, or declare a new public method in `Car` to handle the functionality.   
+=======
+[CODE]
+public class ScopeExample {{
+    public static void main(String[] args) {{
+        for (int i = 0; i < 5; i++) {{
+            int y = i * 2;
+        }}
+        System.out.println(y);
+    }}
+}}
+[OUTPUT]
+KM: Variable 'y' is declared inside the for loop block and cannot be accessed outside of it due to scope limitations.
+KH: Declare 'y' outside the loop before using it inside if necessary, ensuring it's within the correct scope.
+>>>>>>> 9947eeb5b527383f4fdd64179b144729ba701ff4

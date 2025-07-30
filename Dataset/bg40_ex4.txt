@@ -1,3 +1,4 @@
+<<<<<<< HEAD
  public class LoopExample {
     public static void main(String[] args) {
         for (int i = 0; i < 5; i++) {
@@ -7,3 +8,17 @@
 }
 KM: `printLine` is invalid syntax. Java's `println` method should be used to print text in a loop.  
 KH: Correct the spelling to `println` so each iteration prints the message on a new line.  
+=======
+[CODE]  
+public class Printer {  
+    public void printMessage(String msg) {  
+        System.out.println(msg);  
+    }  
+    public static void main(String[] args) {  
+        printMessage("Hello");  
+    }  
+}  
+[OUTPUT]  
+KM: The non-static method `printMessage` cannot be called directly from the static `main` method without an instance.  
+KH: Create an instance of `Printer` (e.g., `new Printer().printMessage("Hello")`) to call the instance method.  
+>>>>>>> 9947eeb5b527383f4fdd64179b144729ba701ff4
