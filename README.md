@@ -1,4 +1,4 @@
-###  Java Bug Catalog with  structured Knowledge about mistakes (KM) and Knowledge about how to proceed (KH) feedback.
+###  Java Bug catalog with  structured Knowledge about mistakes (KM) and Knowledge about how to proceed (KH) feedback.
  
 
 ### Bug types
