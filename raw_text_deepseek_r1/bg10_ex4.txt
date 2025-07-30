@@ -6,7 +6,8 @@ public class ListExample {
         list. add(10);  
         System.out.println(list);  
     }  
+    
 }  
 [OUTPUT]  
-KM: A space after "list." in "list. add(10)" causes a syntax error for the method call.  
+KM: A space after "list." in "list. add(10)"  is considered bad style.  
 KH: Eliminate the space between "list." and "add" to correctly invoke the method as "list.add(10)".  
