@@ -4,14 +4,14 @@
 ### Bug types
 1.  == versus .equals (faulty string comparisons)
 2.  = versus ==
-3.  mismatching, miscounting and/or misuse of { }, [ ], ( ), “ ”, and ‘ ’
+3.  Mismatching, miscounting and/or misuse of { }, [ ], ( ), “ ”, and ‘ ’
     && vs. & and || vs. | 
-4.  incorrect semi-colon after an if selection structure before the if statement or after 
+4.  Incorrect semi-colon after an if selection structure before the if statement or after 
     the  for or while repetition structure before the respective for or while loop
-5.  wrong separators in for loops (using commas instead of
+5.  Wrong separators in for loops (using commas instead of
     semi-colons)"
-6.  an if followed by a bracket instead of by a parenthesis
-7.  using keywords as method names or variable names
+6.  An if followed by a bracket instead of by a parenthesis
+7.  Using keywords as method names or variable names
 8.  invoking methods with wrong arguments
 9.  incorrect semicolon at the end of a method header 
 10. leaving a space after a period when calling a specific method
@@ -92,6 +92,7 @@
 84. Null Pointer Exception
 
  The following research papers were reviewed to identify the common student programming errors. 
+ 
  
  - Amjad Altadmri and Neil C.C. Brown. 2015. 37 Million Compilations: Investigating Novice Programming Mistakes in Large-Scale Student Data. In Proceedings of the 46th ACM Technical Symposium on Computer Science Education (SIGCSE '15). Association for Computing Machinery, New York, NY, USA, 522–527. https://doi.org/10.1145/2676723.2677258
 -  Marzieh Ahmadzadeh, Dave Elliman, and Colin Higgins. 2005. An analysis of patterns of debugging among novice computer science students. SIGCSE Bull. 37, 3 (September 2005), 84–88. https://doi.org/10.1145/1151954.1067472
