@@ -1,5 +1,6 @@
 ###  Java bug catalog with  structured Knowledge about mistakes (KM) and Knowledge about how to proceed (KH) feedback.
  
+Bug categories include syntax, semantic, and logical errors, along with code that reveals underlying conceptual misunderstandings.
 
 ### Bug types
 1.  == versus .equals (faulty string comparisons)
