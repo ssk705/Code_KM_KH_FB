@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 ###  Java bug catalog with  structured Knowledge about mistakes (KM) and Knowledge about how to proceed (KH) feedback.
-=======
-###  Java Bug catalog with  structured Knowledge about mistakes (KM) and Knowledge about how to proceed (KH) feedback.
->>>>>>> 9947eeb5b527383f4fdd64179b144729ba701ff4
  
 
 ### Bug types
@@ -24,15 +20,9 @@
 13. improper casting
 14. invoking a non-void method in a statement that requires a return value
 15. forgetting parentheses after method call
-<<<<<<< HEAD
 16. Flow reaches end of non-void method
 17. Misunderstanding object references
 18. Incompatibility between the declared return type of a method and in its invocation 
-=======
-16. flow reaches end of non-void method
-17. misunderstanding object references
-18. incompatibility between the declared return type of a method and in its invocation 
->>>>>>> 9947eeb5b527383f4fdd64179b144729ba701ff4
 19. class declared abstract because of missing function
 20. Trying to invoke a non-static method as if it was static.
 21. Field Not Found
@@ -103,10 +93,6 @@
 
  The following research papers were reviewed to identify the common student programming errors. 
  
-<<<<<<< HEAD
-=======
- 
->>>>>>> 9947eeb5b527383f4fdd64179b144729ba701ff4
  - Amjad Altadmri and Neil C.C. Brown. 2015. 37 Million Compilations: Investigating Novice Programming Mistakes in Large-Scale Student Data. In Proceedings of the 46th ACM Technical Symposium on Computer Science Education (SIGCSE '15). Association for Computing Machinery, New York, NY, USA, 522–527. https://doi.org/10.1145/2676723.2677258
 -  Marzieh Ahmadzadeh, Dave Elliman, and Colin Higgins. 2005. An analysis of patterns of debugging among novice computer science students. SIGCSE Bull. 37, 3 (September 2005), 84–88. https://doi.org/10.1145/1151954.1067472
 
@@ -127,8 +113,4 @@
 - Ian Finlayson and Stephen Davies. 2024. Jguardrail: A Framework for Identifying Possible Errors in Student Java Code. J. Comput. Sci. Coll. 40, 3 (October 2024), 322–333.
 
 
-<<<<<<< HEAD
  
-=======
- 
->>>>>>> 9947eeb5b527383f4fdd64179b144729ba701ff4
