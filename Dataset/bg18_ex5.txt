@@ -4,7 +4,7 @@ public class Sample {
         return 42;
     }
     public static void main(String[] args) {
-        String numStr = getNumber().toString(); // int is primitive, can't call toString()
+        String numStr = getNumber().toString();  
     }
 }
 [OUTPUT]
