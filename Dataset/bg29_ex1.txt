@@ -3,7 +3,7 @@ public class SumExample {
     public static void main(String[] args) {  
         int total = 0;  
         total += 5;  
-        totle += 10; // Misspelled variable  
+        totle += 10;  
         System.out.println("Total: " + total);  
     }  
 }  

@@ -2,7 +2,7 @@
 public class CaseSensitivity {  
     public static void main(String[] args) {  
         int count = 3;  
-        Count += 1; // Incorrect capitalization  
+        Count += 1;    
         System.out.println("Count: " + count);  
     }  
 }  

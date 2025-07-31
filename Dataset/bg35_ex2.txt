@@ -2,7 +2,7 @@ class Person {
     private String name;
 }
 
-class Student extends Person extends Person {
+class Student extends Person {
     public void printName() {
         System.out.println(name); // Error
     }
