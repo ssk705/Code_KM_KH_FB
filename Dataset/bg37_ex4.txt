@@ -2,7 +2,7 @@
     public static void main(String[] args) {
         int price = 100;
         {
-            private int discount = 10;  // Bug here
+            private int discount = 10;   
             price = price - discount;
         }
         System.out.println(price);

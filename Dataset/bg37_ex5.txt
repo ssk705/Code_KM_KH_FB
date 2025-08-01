@@ -1,7 +1,7 @@
  public class Game {
     public static void main(String[] args) {
         final int MAX_LIVES = 3;
-        MAX_LIVES = 5;  // Bug here
+        MAX_LIVES = 5;   
         System.out.println(MAX_LIVES);
     }
 }

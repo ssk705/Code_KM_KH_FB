@@ -1,7 +1,7 @@
  public class Test {
     public static void main(String[] args) {
         System.out.println("Start");
-        public void display() {  // Bug here
+        public void display() {   
             System.out.println("Hello");
         }
         display();

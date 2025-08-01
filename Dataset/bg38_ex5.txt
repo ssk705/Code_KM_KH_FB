@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 class Account {
     private double balance = 100.0;
     public void updateBalance() {
@@ -13,15 +12,3 @@ public class Bank {
 }
 KM:`balance` is `private` and accessible **only within `Account`**. External classes like `Bank` cannot access it directly.  
 KH:Encapsulate access via a public method in `Account` (e.g., `public void deductBalance(double amount)`).
-=======
-[CODE]
-public class Order {{
-    public static void main(String[] args) {{
-        System.out.println(value);
-        int value = 10;
-    }}
-}}
-[OUTPUT]
-KM: Variable 'value' is used before its declaration, resulting in a "cannot find symbol" compilation error.
-KH: Declare the variable before using it in the code. Move the declaration above the print statement.
->>>>>>> 9947eeb5b527383f4fdd64179b144729ba701ff4

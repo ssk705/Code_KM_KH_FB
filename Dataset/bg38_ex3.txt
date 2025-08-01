@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 class Animal {
     private void makeSound() { 
         System.out.println("Animal sound"); 
@@ -6,7 +5,7 @@ class Animal {
 }
 
 class Dog extends Animal {
-    public void makeSound() {  // Intended override
+    public void makeSound() {  
         System.out.println("Bark");
     }
 }
@@ -14,20 +13,8 @@ class Dog extends Animal {
 public class Main {
     public static void main(String[] args) {
         Animal a = new Dog();
-        a.makeSound();  // Prints "Animal sound", not "Bark"
+        a.makeSound();   
     }
 }
 KM:Private methods cannot be overridden. `Dog.makeSound()` is a new method, not an override. Polymorphism fails here.  
 KH:Declare `makeSound()` as `public` or `protected` in `Animal` to enable proper overriding.  
-=======
-[CODE]
-public class TypeMismatch {{
-    public static void main(String[] args) {{
-        int number = 3.14;
-        System.out.println(number);
-    }}
-}}
-[OUTPUT]
-KM: Assigning a double value (3.14) to an int variable causes a lossy conversion error. Java does not allow implicit narrowing conversions.
-KH: Use the correct data type (e.g., double) for the variable or explicitly cast the value to int if intentional.
->>>>>>> 9947eeb5b527383f4fdd64179b144729ba701ff4

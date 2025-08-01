@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 package data;
 public class Sensor {
     protected int value = 0;
@@ -12,16 +11,3 @@ public class Robot {
 }
 KM:`protected` members are accessible by subclasses **or classes in the same package**. `Robot` is in a different package and **not a subclass** of `Sensor`.  
 KH:Declare `Robot` as a subclass of `Sensor`, move both classes to the same package, or change `value` to `public` if appropriate.
-=======
-[CODE]
-public class Redeclare {{
-    public static void main(String[] args) {{
-        int count = 5;
-        int count = 10;
-        System.out.println(count);
-    }}
-}}
-[OUTPUT]
-KM: Redeclaring 'count' in the same scope is not permitted in Java, leading to a duplicate variable error.
-KH: Remove the duplicate declaration and assign a new value using 'count = 10;' instead.
->>>>>>> 9947eeb5b527383f4fdd64179b144729ba701ff4
