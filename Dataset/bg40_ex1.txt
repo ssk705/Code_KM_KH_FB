@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 public class Greeting {
     public static void main(String[] args) {
         System.out.printLine("Hello, World!");
@@ -8,18 +7,3 @@ public class Greeting {
 KM: The method `printLine` does not exist in Java. This is a misspelling of the standard `println` method.  
 KH: Change `printLine` to `println` to correctly output the string with a newline.  
  
-=======
-[CODE]  
-public class Calculator {  
-    public static int add(int a, int b) {  
-        return a + b;  
-    }  
-    public static void main(String[] args) {  
-        int result = add(5);  
-        System.out.println(result);  
-    }  
-}  
-[OUTPUT]  
-KM: The method `add` requires two parameters of type `int`, but only one argument is provided in the method call.  
-KH: Ensure the method call includes two integer arguments, e.g., `add(5, 3)`, to match the method signature.  
->>>>>>> 9947eeb5b527383f4fdd64179b144729ba701ff4
