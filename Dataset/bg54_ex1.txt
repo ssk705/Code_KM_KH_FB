@@ -2,7 +2,7 @@
 public class Student implements Comparable<Student> {  
     private int id;  
     public Student(int id) { this.id = id; }  
-    // Missing compareTo method  
+     
 }  
 [OUTPUT]  
 KM: The class `Student` implements `Comparable<Student>` but does not define the required `compareTo` method, causing a compilation error.  

@@ -3,7 +3,7 @@ abstract class Animal {
     public abstract void makeSound();  
 }  
 class Dog extends Animal {  
-    // No makeSound implementation  
+     
 }  
 [OUTPUT]  
 KM: The `Dog` class inherits the abstract `makeSound` method from `Animal` but does not provide an implementation, causing a compilation error.  

@@ -2,8 +2,8 @@
 interface Readable { void read(); }  
 interface Writable { void write(); }  
 class FileHandler implements Readable, Writable {  
-    public void read() { /* Read logic */ }  
-    // Missing write method  
+    public void read() {   }  
+    
 }  
 [OUTPUT]  
 KM: The `FileHandler` class implements `Writable` but does not define the required `write` method, causing a compilation error.  
