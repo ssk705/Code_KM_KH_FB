@@ -5,7 +5,7 @@ public class ListUpdate {
         ArrayList<Integer> nums = new ArrayList<>();  
         nums.add(1);  
         nums.add(2);  
-        nums.get(0) = 10; // Attempting to update the first element  
+        nums.get(0) = 10;  
     }  
 }  
 [OUTPUT]  

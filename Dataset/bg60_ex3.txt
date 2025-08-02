@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {  
         ArrayList<String> list = new ArrayList<>();  
         list.add("apple");  
-        list.get(0).charAt(0) = 'A'; // Invalid  
+        list.get(0).charAt(0) = 'A';  
     }  
 }  
 [OUTPUT]  

@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {  
         HashMap<String, Integer> map = new HashMap<>();  
         map.put("a", 1);  
-        map.get("a") = 2; // Compilation error  
+        map.get("a") = 2;  
     }  
 }  
 [OUTPUT]  

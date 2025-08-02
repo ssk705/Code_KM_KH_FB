@@ -5,7 +5,7 @@ public class ForEachModify {
     public static void main(String[] args) {  
         List<Integer> list = Arrays.asList(1, 2, 3);  
         for (Integer num : list) {  
-            num = num * 2; // Intending to double each element  
+            num = num * 2;   
         }  
         System.out.println(list);  
     }  
