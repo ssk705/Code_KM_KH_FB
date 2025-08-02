@@ -6,7 +6,7 @@ public class Example4 {
             System.out.println("One");
         } else if (num == 2) {
             System.out.println("Two");
-        // missing }
+         
         else {
             System.out.println("Other");
         }
