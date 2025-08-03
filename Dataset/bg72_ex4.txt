@@ -9,14 +9,14 @@ class Tree {
 
 class AppleTree extends Tree {
     @Override
-    public Apple getFruit() {  // Covariant return is allowed
+    public Apple getFruit() {   
         return new Apple();
     }
 }
 
 class SpecialTree extends AppleTree {
     @Override
-    public Fruit getFruit() {  // Return type changed back to Fruit
+    public Fruit getFruit() {  
         return new Fruit();
     }
 }
