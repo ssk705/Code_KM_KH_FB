@@ -1,3 +1,4 @@
+[CODE]
 public class IncrementCheck {
     public static void main(String[] args) {
         int count = 0;
@@ -8,5 +9,6 @@ public class IncrementCheck {
         System.out.println("Count: " + count);
     }
 } 
+[OUTPUT]
 KM:The increment (`count++`) executes even when `flag` is `false`, causing an unintended side effect.  .  
 KH:Replace `&` with `&&` to avoid evaluating `count++ < 5` when `flag` is `false`.  

@@ -1,6 +1,7 @@
+[CODE]
 public class DayPlanner {
     public static void main(String[] args) {
-        int day = 3; // Wednesday
+        int day = 3;  
         switch (day) {
             case 1:
                 System.out.println("Monday: Work");
@@ -13,5 +14,6 @@ public class DayPlanner {
         }
     }
 }
+[OUPUT]
 KM:Absence of `break` makes all cases after `case 3` execute.  
 KH:End each case with `break;` to exit the switch after executing the matched case.  

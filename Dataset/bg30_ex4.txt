@@ -1,3 +1,4 @@
+[CODE]
  public class Calculator {
     public static void main(String[] args) {
         char operator = '+';
@@ -12,5 +13,6 @@
         }
     }
 }
+[OUPUT]
 KM:Missing `break` causes all operations after `+` to execute. 
 KH:Add `break;` after each arithmetic operation to isolate cases.  

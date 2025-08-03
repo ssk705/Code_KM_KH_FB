@@ -10,7 +10,7 @@ public class Counter {
 public class Test {
     public static void main(String[] args) {
         Counter c1 = new Counter();
-        c1.increment();  // Static method called via instance
+        c1.increment();   
         System.out.println(Counter.count);
     }
 }

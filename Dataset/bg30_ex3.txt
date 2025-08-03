@@ -1,6 +1,6 @@
  public class BeverageSelector {
     public static void main(String[] args) {
-        int choice = 2; // Coffee
+        int choice = 2;  
         switch (choice) {
             case 1:
                 System.out.println("Tea selected.");

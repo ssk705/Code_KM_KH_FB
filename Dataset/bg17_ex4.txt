@@ -1,3 +1,4 @@
+[CODE]
 public class Student {
     String name;
     public Student(String name) { this.name = name; }
@@ -9,6 +10,7 @@ public class Student {
         System.out.println(s1.name);  
     }
 }
+[OUPUT]
 KM:Assigning `s2 = s1` copies the *object reference*, not the object itself. Both variables point to the same `Student` object.Modifying `s2` affects `s1` because they reference the same object, leading to unintended side effects.  
 
 KH:To create independent copies, explicitly construct a new object (e.g., `new Student(s1.name)`). Understand that assignment (`=`) between objects shares references, not data.  

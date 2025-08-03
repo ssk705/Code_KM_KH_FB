@@ -1,3 +1,4 @@
+[CODE]
 class Base {
     void init() {
         setup();
@@ -19,5 +20,6 @@ public class Main {
         b.init(); 
     }
 }
+[OUTPUT]
 KM:Calling an overridden method (`setup()`) from a superclass method (`init()`) invokes the subclass method, which might be uninitialized if `Derived` setup requires constructor logic
 KH:Ensure critical initialization happens in constructors, not overrideable methods called by superclass logic. 

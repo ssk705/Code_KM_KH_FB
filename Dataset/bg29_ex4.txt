@@ -2,7 +2,7 @@
 public class UserData {  
     public static void main(String[] args) {  
         String user_name = "Alice";  
-        System.out.println("Username: " + username); // Missing underscore  
+        System.out.println("Username: " + username);  
     }  
 }  
 [OUTPUT]  

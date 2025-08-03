@@ -2,7 +2,7 @@
 public class ReturnExample {
     public int calculate() {
         int result;
-        // Some condition that might not assign a value to result
+         
         return result;
     }
 }

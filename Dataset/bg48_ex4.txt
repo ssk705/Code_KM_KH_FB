@@ -1,3 +1,4 @@
+[CODE]
 class Shape {}
 class Circle extends Shape {
     void drawCircle() { System.out.println("Drawing circle"); }
@@ -12,5 +13,6 @@ public class Main {
         draw(shape);
     }
 }
+[OUTPUT]
 KM:The `draw` method assumes all `Shape` objects are `Circle` instances, which is incorrect.  Passing a generic `Shape` to `draw` causes a `ClassCastException` since `Shape` isn't a `Circle`.  
 KH: Validate the input type with `s instanceof Circle` before casting. Redesign the method to handle `Shape` polymorphically (e.g., override methods in subclasses).    

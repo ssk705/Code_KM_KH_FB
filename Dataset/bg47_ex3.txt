@@ -1,3 +1,4 @@
+[CODE]
 public class SafeDivision {
     public static void main(String[] args) {
         int divisor = 0;
@@ -7,5 +8,6 @@ public class SafeDivision {
         }
     }
 } 
+[OUTPUT]
 KM:Both conditions are evaluated even if `divisor != 0` fails, causing an `ArithmeticException` (division by zero).  
 KH:Replace `&` with `&&` to skip the division when `divisor != 0` is `false`.  

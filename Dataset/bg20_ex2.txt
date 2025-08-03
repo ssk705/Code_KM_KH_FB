@@ -1,3 +1,4 @@
+[CODE]
 public class Geometry {
     public double circleArea(double radius) {
         return Math.PI * radius * radius;
@@ -8,5 +9,6 @@ public class Geometry {
         System.out.println("Area: " + area);
     }
 }
+[OUPUT]
 KM:circleArea()` is a non-static method. You cannot call it directly from the static `printArea()` method without an instance. 
 KH:Static methods like `printArea()` can only directly call other static methods in the same class.

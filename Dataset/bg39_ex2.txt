@@ -1,7 +1,9 @@
+[CODE]
 public class Sample {
     public void (String message) {
         System.out.println(message);
     }
 }
+[OUTPUT]
 KM: The method declaration is missing an identifier (method name) before the parameter list.  
 KH: Insert a method name between `void` and `(String message)` (e.g., `public void print(String message)`). 

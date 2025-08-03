@@ -1,7 +1,7 @@
 [CODE]  
 public class CommentExample4 {  
     public static void main(String[] args) {  
-        \* This comment uses incorrect syntax *\  
+        
         System.out.println("Test");  
     }  
 }  

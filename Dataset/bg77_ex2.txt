@@ -4,7 +4,7 @@ public class Percentage {
         int correctAnswers = 15;  
         int totalQuestions = 20;  
         double percentage = (correctAnswers / totalQuestions) * 100;  
-        System.out.println(percentage); // Prints 0.0 instead of 75.0  
+        System.out.println(percentage);  
     }  
 }  
 [OUTPUT]  

@@ -1,5 +1,5 @@
+[CODE]
 import java.util.*;
-
 class Animal {
     public void eat() {
         System.out.println("Animal eats");
@@ -22,5 +22,6 @@ public class Main {
         }
     }
 }
+[OUTPUT]
 KM:`meow()` is a method specific to `Cat`, not defined in `Animal`.  Polymorphic collections (`List<Animal>`) only guarantee access to `Animal` methods. 
 KH:Use explicit downcasting (e.g., `((Cat) a).meow()`) only if you are certain the object is a `Cat`. Alternatively, redesign using polymorphism (e.g., override `eat()` in `Cat`).

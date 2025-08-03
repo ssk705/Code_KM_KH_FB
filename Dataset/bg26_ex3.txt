@@ -4,7 +4,7 @@ public class Area {
         double area = computeArea(5.0);  
         System.out.println(area);  
     }  
-    // Missing computeArea method definition  
+       
 }  
 [OUTPUT]  
 KM: The method "computeArea" is called but not defined in the class, leading to a compilation error.  

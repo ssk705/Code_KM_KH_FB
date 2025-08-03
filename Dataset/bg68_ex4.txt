@@ -1,3 +1,4 @@
+[CODE]
 class Parent {
     void greet() {
         System.out.println("Parent says hello");
@@ -16,5 +17,6 @@ public class Main {
         p.greet(); 
     }
 }
+[OUTPUT]
 KM:`Child.greet(String)` is overloaded, not overridden. The superclass method `greet()` remains uncalled due to no parameterless override in `Child`.
 KH: Add a parameterless `greet()` method in `Child` that overrides the parent method.  

@@ -4,7 +4,7 @@ public class Logger {
     }
 
     public static void logError(String error) {
-        logMessage("ERROR: " + error); // Bug here
+        logMessage("ERROR: " + error);  
     }
 }
 KM:`logMessage()` is an instance method, but `logError()` is static. Static methods cannot directly call non-static methods.

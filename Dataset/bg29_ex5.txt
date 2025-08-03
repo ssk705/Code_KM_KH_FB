@@ -2,7 +2,7 @@
 public class StudentCounter {  
     public static void main(String[] args) {  
         int numberOfStudents = 30;  
-        numberOfStudnts += 5; // Missing 'e' in 'Students'  
+        numberOfStudnts += 5;   
         System.out.println("Students: " + numberOfStudents);  
     }  
 }  

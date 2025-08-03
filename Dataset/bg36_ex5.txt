@@ -1,8 +1,10 @@
+[CODE]
 import static .Math.PI;  
 public class Circle {
     double area(double r) {
         return PI * r * r;
     }
 }
+[OUTPUT]
 KM:Static imports require the full class name (e.g., `import static java.lang.Math.PI;`).  
 KH:Include the fully qualified class name after `static`, like `java.lang.Math.PI`.

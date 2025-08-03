@@ -1,8 +1,10 @@
+[CODE]
 public class WelcomeMessage {
     public static void main(String[] args) {
         String name = "Alice";
         System.out.println("Hello, " name "!");  
     }
 }
+[OUPUT]
 KM:The expression `"Hello, " name "!"` is missing the concatenation operator (`+`) between `"Hello, "` and `name`.  
 KH:Use `+` to join the string literals and the variable `name`.  

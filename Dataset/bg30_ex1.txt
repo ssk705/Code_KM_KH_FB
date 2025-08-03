@@ -1,3 +1,4 @@
+[CODE]
 public class GradeEvaluator {
     public static void main(String[] args) {
         char grade = 'B';
@@ -13,5 +14,6 @@ public class GradeEvaluator {
         }
     }
 }
+[OUPUT]
 KM:Missing `break` after each `case`, causing unintended "fall-through" behavior.
 KH:Add `break;` after each case's logic to terminate the switch block after matching a case.  

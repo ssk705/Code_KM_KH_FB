@@ -1,3 +1,4 @@
+[CODE]
 class Vehicle {
     public void startEngine() {
         System.out.println("Engine started");
@@ -10,5 +11,6 @@ class Car extends Vehicle {
         System.out.println("Car engine started");
     }
 }
+[OUTPUT]
 KM:Overriding a method with a *more restrictive access modifier* (`public` → `package-private`) violates Java's rules.  The compiler prevents this because it breaks polymorphism guarantees.  
 KH:Use the *same or broader access modifier* in the subclass. Change `startEngine()` in `Car` to `public`.

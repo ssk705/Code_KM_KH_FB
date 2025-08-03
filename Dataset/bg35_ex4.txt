@@ -1,3 +1,4 @@
+[CODE]
 class SuperClass {
     public static void print() {
         System.out.println("Super");
@@ -9,5 +10,6 @@ class SubClass extends SuperClass {
         System.out.println("Sub(");
     }
 } 
+[OUTPUT]
 KM:Declaring a `static` method with the same name as a superclass `static` method does **not** override it; it *hides* it.
 KH:Polymorphism doesn’t apply. Calling `print()` via a `SuperClass` reference always invokes `SuperClass.print()`, even if the object is a `SubClass`.  

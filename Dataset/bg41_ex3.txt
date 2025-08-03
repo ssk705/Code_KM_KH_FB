@@ -1,3 +1,4 @@
+[CODE]
 import java.util.*;
 class Vehicle {}
 class Car extends Vehicle {
@@ -12,5 +13,6 @@ public class Main {
         }
     }
 }
+[OUTPUT]
 KM: Compile-time type of `v` is `Vehicle`, which lacks the `startEngine()` method.  Polymorphism doesn’t automatically expose subclass-specific methods without explicit casting.  
 KH: Cast `v` to `Car` inside the loop before calling `startEngine()`, ensuring `v` is a `Car` instance.  

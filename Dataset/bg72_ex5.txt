@@ -1,3 +1,4 @@
+[CODE]
 class Shape {
     public void draw() {
         System.out.println("Drawing shape");
@@ -10,5 +11,6 @@ class Circle extends Shape {
         System.out.println("Drawing circle");
     }
 }
+[OUTPUT]
 KM:@Override` is used but the method name is misspelled (`draw` vs `Draw`).This creates a *new method* (overloading) instead of overriding, and the annotation causes a compiler error.  
 KH:Always verify that the method name and signature *exactly match* the superclass method when using `@Override`.

@@ -1,3 +1,4 @@
+[CODE]
 public class Student {
     private String name;
 
@@ -6,9 +7,10 @@ public class Student {
     }
 
     public static void main(String[] args) {
-        setName("Alice"); // Bug here
+        setName("Alice");  
         System.out.println("Name set!");
     }
 }
+[OUPUT]
 KM:`setName()` is an instance method but called without any object context in `main()`.  
 KH: Non-static methods must be called on an object reference (e.g., `someStudent.setName(...)`).  

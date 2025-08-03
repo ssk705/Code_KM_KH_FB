@@ -1,12 +1,12 @@
+[CODE]
 import Java.IO.File;
-
 public class FileHandler {
     public static void main(String[] args) {
         File file = new File("test.txt");
         System.out.println(file.exists());
     }
 }
-
+[OUTPUT]
 KM: Package names in Java are strictly lowercase. Using uppercase (`Java.IO`) makes the package unresolvable.  
 KH: Use lowercase package names: `java.io.File` instead of `Java.IO.File`.
  

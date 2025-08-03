@@ -1,3 +1,4 @@
+[CODE]
 public class Student {
     private String name;
     public Student(String name) { this.name = name; }
@@ -10,5 +11,6 @@ public class Main {
         s.printName();  
     }
 }
+[OUTPUT]
 KM:The reference `s` is `null` but used to call `printName()`, causing a `NullPointerException
 KH: Initialize `s` with `new Student(...)` before calling methods on it.  

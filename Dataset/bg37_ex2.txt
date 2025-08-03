@@ -1,4 +1,5 @@
- public class Test {
+[CODE]
+public class Test {
     public static void main(String[] args) {
         System.out.println("Start");
         public void display() {   
@@ -7,6 +8,7 @@
         display();
     }
 }
+[OUTPUT]
 KM:Declaring a method (`display()`) inside another method (`main()`) is invalid in Java (nested methods not allowed).  
 KH:Move `display()` outside `main()` (to class scope). Remove `public` if unnecessary.  
   

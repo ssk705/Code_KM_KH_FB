@@ -1,11 +1,11 @@
+[CODE]
 import .MathHelper; // Default package import attempt
-
 public class Geometry {
     public static void main(String[] args) {
         double area = MathHelper.circleArea(5.0);
         System.out.println(area);
     }
 }
-
+[OUTPUT]
 KM: Classes in the default package (no package declaration) cannot be imported using dot-prefix syntax.  
 KH: Move `MathHelper.java` to a named package and update the import statement (e.g., `import math.MathHelper;`), or remove the import and ensure both classes are in the default package.

@@ -1,8 +1,8 @@
 [CODE]  
 public class CommentExample2 {  
     public static void main(String[] args) {  
-        // This prints "Hello World"  
-        System.out.println("Hello // World"); // Note: Slashes in the string  
+        
+        System.out.println("Hello // World");   
     }  
 }  
 [OUTPUT]  

@@ -1,8 +1,9 @@
+[CODE]
 public class Example4 {
           public static void main(String[] args) {
               System.out.println("Hello")
           }
       }
-
+[OUTPUT]
    KM: Missing semicolon at the end of the println statement.
    KH: Add a semicolon at the end of the println statement. 

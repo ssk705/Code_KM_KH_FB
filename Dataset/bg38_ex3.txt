@@ -1,3 +1,4 @@
+[CODE]
 class Animal {
     private void makeSound() { 
         System.out.println("Animal sound"); 
@@ -16,5 +17,6 @@ public class Main {
         a.makeSound();   
     }
 }
+[OUTPUT]
 KM:Private methods cannot be overridden. `Dog.makeSound()` is a new method, not an override. Polymorphism fails here.  
 KH:Declare `makeSound()` as `public` or `protected` in `Animal` to enable proper overriding.  

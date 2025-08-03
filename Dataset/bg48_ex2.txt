@@ -1,3 +1,4 @@
+[CODE]
 class Vehicle {}
 class Car extends Vehicle {
     void drive() { System.out.println("Driving!"); }
@@ -9,5 +10,6 @@ public class Main {
         c.drive();
     }
 }
+[OUTPUT]
 KM:Downcasting `v` (a `Vehicle` instance) to `Car` fails because `v` isn't a `Car`.  The compiler allows this cast syntactically, but at runtime, `v` lacks `Car`'s properties.  
 KH:Only downcast when you are certain the object is of the target type (e.g., if `v` was created as `new Car().Verify the type with `if (v instanceof Car)` before casting.  

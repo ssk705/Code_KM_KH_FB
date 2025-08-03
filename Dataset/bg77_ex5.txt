@@ -4,7 +4,7 @@ public class PhysicsLab {
         int distance = 7;  
         int time = 2;  
         double speed = distance / time;  
-        System.out.println(speed); // Prints 3.0 instead of 3.5  
+        System.out.println(speed);  
     }  
 }  
 [OUTPUT]  

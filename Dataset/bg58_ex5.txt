@@ -1,8 +1,8 @@
 [CODE]  
 public class CommentExample5 {  
     public static void main(String[] args) {  
-        // This line sets z to 20;  
-        int z = 20; // Then we print z  
+         
+        int z = 20;  
         // System.out.println(z);  
         System.out.println("Done");  
     }  

@@ -1,3 +1,4 @@
+[CODE]
 class Parent {
     public static void display() {
         System.out.println("Parent display");
@@ -16,5 +17,6 @@ public class Main {
         p.display();   
     }
 }
+[OUTPUT]
 KM:Static methods **cannot be overridden**—they are *hidden*, not bound polymorphically.  Calling `p.display()` ignores the object's runtime type (`Child`) because static methods use *compile-time* binding
 KH:If dynamic polymorphism is needed, declare the superclass method as *non-static* (instance method). Avoid "overriding" static methods. 

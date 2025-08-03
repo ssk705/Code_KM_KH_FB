@@ -1,3 +1,4 @@
+[CODE]
 public class Divide {
     public static void main(String[] args) {
         try {
@@ -7,5 +8,6 @@ public class Divide {
         }
     }
 }
+[OUTPUT]
 KM:The `catch` block specifies the exception type but omits the required variable identifier.  
 KH:Add an identifier after `ArithmeticException` (e.g., `ArithmeticException e`).   

@@ -1,3 +1,4 @@
+[CODE]
 class Animal {
     public void speak(String sound) {
         System.out.println(sound);
@@ -16,5 +17,6 @@ public class Main {
         a.speak("Hello");   
     }
 }
+[OUTPUT]
 KM:The `Cat` class does *not* override `speak` from `Animal` because the method signatures differ (parameters vs. no parameters).  This creates an overloaded method instead of an overridden one, so polymorphism fails.  
 KH:Ensure the subclass method has the *exact same signature* (name + parameters) as the superclass method to override. Add a `String` parameter to `Cat.speak()` to match.

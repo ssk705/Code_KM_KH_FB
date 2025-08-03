@@ -4,7 +4,7 @@ public class Recipe {
         int flour = 500;  
         int portions = 3;  
         double flourPerPortion = flour / portions;  
-        System.out.println(flourPerPortion); // Prints 166.0 instead of 166.666...  
+        System.out.println(flourPerPortion);  
     }  
 }  
 [OUTPUT]  

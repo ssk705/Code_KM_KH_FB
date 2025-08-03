@@ -4,7 +4,7 @@ public class TemperatureCheck {
         int temp1 = 30;  
         int temp2 = 40;  
         double midpoint = (temp1 + temp2) / 2;  
-        System.out.println(midpoint); // Prints 35.0 instead of 35.5  
+        System.out.println(midpoint);   
     }  
 }  
 [OUTPUT]  

@@ -4,7 +4,7 @@ public class AverageCalculator {
         int sum = 9;  
         int count = 2;  
         double average = sum / count;  
-        System.out.println(average); // Prints 4.0 instead of 4.5  
+        System.out.println(average);   
     }  
 }  
 [OUTPUT]  

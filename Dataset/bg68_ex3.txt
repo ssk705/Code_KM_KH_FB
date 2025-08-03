@@ -1,3 +1,4 @@
+[CODE]
 class Shape {
     public String name = "Shape";
     public void printType() {
@@ -15,5 +16,6 @@ public class Main {
         s.printType(); 
     }
 } 
+[OUTPUT]
 KM:Fields aren't polymorphic. `printType()` uses `name` from `Shape` (compile-time type), not `Circle`, because field resolution is static.
 KH:Access fields via getter methods instead of directly to leverage polymorphism.  

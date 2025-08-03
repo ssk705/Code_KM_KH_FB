@@ -1,3 +1,4 @@
+[CODE]
 class Printer {
     public void print(int num) {
         System.out.println("Integer: " + num);
@@ -14,5 +15,6 @@ public class Main {
         p.print(5);  
     }
 }
+[OUTPUT]
 KM: Java cannot distinguish between `int` and `Integer` parameters when passing `5` because of auto-boxing/unboxing. This creates ambiguity.  
 KH:Avoid overloaded methods where parameters can be auto-converted between primitive/wrapper. Use distinct parameter types (e.g., `int` and `long`)

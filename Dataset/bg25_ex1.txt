@@ -1,3 +1,4 @@
+ [CODE]
  public class LoopExample {
     public static void main(String[] args) {
         for (int i = 0; i < 5; i) {  
@@ -5,5 +6,6 @@
         }
     }
 }
+[OUPUT]
 KM:The loop update `i)` in `for (int i = 0; i < 5; i)` is missing the increment operator (`++`).  
 KH:Replace `i` with the appropriate operator to increment `i` by `1` each iteration.

@@ -6,8 +6,8 @@ public class Counter {
     }
 
     public static void resetCounter() {
-        increment(); // Bug here
-        count = 0; // Also a bug (won't compile)
+        increment();  
+        count = 0;  
     }
 }
 KM:`increment()` is non-static and cannot be called from static `resetCounter()` without an instance.  

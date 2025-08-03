@@ -1,3 +1,4 @@
+[CODE]
 public class TrafficLight {
     public static void main(String[] args) {
         String light = "yellow";
@@ -11,5 +12,6 @@ public class TrafficLight {
         }
     }
 }
+[OUTPUT]
 KM:No `break` in any case leads to sequential execution of all subsequent cases
 KH:Insert `break;` before the next `case` to prevent fall-through after each action.  

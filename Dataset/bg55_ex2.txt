@@ -1,7 +1,7 @@
 [CODE]  
 public class Student {  
     public Student(name, int age) {  
-        // constructor code  
+          
     }  
 }  
 [OUTPUT]  

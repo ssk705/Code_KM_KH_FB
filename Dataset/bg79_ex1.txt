@@ -1,3 +1,4 @@
+[CODE]
 public class Calculator {
     public int add(int a, int b) {
         return a + b;
@@ -7,5 +8,6 @@ public class Calculator {
         return (double)(a + b);
     }
 }
+[OUTPUT]
 KM:Java does not support method overloading based solely on return type. Both `add` methods have identical parameters `(int, int)`, causing a compilation error
 KH:Distinguish overloaded methods by unique parameter lists (e.g., change parameter types or counts), not return types.   
