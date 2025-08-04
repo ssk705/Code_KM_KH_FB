@@ -5,6 +5,6 @@ public class WelcomeMessage {
         System.out.println("Hello, " name "!");  
     }
 }
-[OUPUT]
+[OUTPUT]
 KM:The expression `"Hello, " name "!"` is missing the concatenation operator (`+`) between `"Hello, "` and `name`.  
 KH:Use `+` to join the string literals and the variable `name`.  

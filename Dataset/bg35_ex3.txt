@@ -10,6 +10,6 @@ class Dog extends Animal {
         System.out.println(sound);
     }
 }
-[OUPUT]
+[OUTPUT]
 KM:The `Dog` class declares `speak(String)` instead of matching the superclass method `speak()` exactly. This creates an overloaded method, not an overridden one.  
 KH:To override a superclass method, ensure the method signature (name and parameters) in the subclass exactly matches the superclass method. Use `@Override` annotation to enforce this. 

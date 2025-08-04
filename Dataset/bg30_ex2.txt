@@ -14,6 +14,6 @@ public class DayPlanner {
         }
     }
 }
-[OUPUT]
+[OUTPUT]
 KM:Absence of `break` makes all cases after `case 3` execute.  
 KH:End each case with `break;` to exit the switch after executing the matched case.  

@@ -1,3 +1,4 @@
+ [CODE]
  public class BeverageSelector {
     public static void main(String[] args) {
         int choice = 2;  
@@ -11,5 +12,6 @@
         }
     }
 }
+[OUTPUT]
 KM:Fall-through occurs from `case 2` to `case 3` due to missing `break`.  
 KH:Terminate each case with `break;` to ensure only the selected beverage prints.  

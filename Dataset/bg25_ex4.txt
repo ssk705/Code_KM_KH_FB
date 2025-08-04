@@ -8,6 +8,6 @@ public class DiscountCheck {
         }
     }
 }
-[OUPUT]
+[OUTPUT]
 KM:The condition `age < 25 isStudent` lacks the logical AND operator (`&&`) to combine both expressions.  
 KH:Add the `&&` operator between `age < 25` and `isStudent` to properly link the conditions.  

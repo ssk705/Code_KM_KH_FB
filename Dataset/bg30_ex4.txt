@@ -13,6 +13,6 @@
         }
     }
 }
-[OUPUT]
+[OUTPUT]
 KM:Missing `break` causes all operations after `+` to execute. 
 KH:Add `break;` after each arithmetic operation to isolate cases.  

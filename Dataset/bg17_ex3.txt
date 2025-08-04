@@ -6,6 +6,6 @@ public class Book {
         b.title = "Java"; // Runtime NullPointerException
     }
 }
-[OUPUT]
+[OUTPUT]
 KM:Assigned `Book b = null` (no object created), then tried to modify `b.title
 KH:Initialize `b` with `new Book()` before accessing its fields.  
